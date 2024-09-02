@@ -13,3 +13,15 @@
 @import "grid"; 
 // Aqui vamos inserir os estilos de MENU
 @import "menu"; 
+.pai {
+    .filho {
+      background-color: saddlebrown;
+    }
+    .filha {
+      background-color: lightgreen;
+  
+      &.rebelde {
+        background-color: red;
+      }
+    }
+  }
